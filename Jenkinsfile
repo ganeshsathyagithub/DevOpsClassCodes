@@ -2,7 +2,7 @@
 pipeline{
 	agent any
 	tools{
-        maven 'akshatmaven'
+        maven 'maven'
     }
       stages{
            stage('Checkout'){
